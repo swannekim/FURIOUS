@@ -1,0 +1,38 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.13",
+    "@types/lodash": "^4.17.14",
+    "axios": "^1.7.2",
+    "leaflet": "^1.9.4",
+    "leaflet-rotatedmarker": "^0.2.0",
+    "lodash": "^4.17.21",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-datepicker": "^7.1.0",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-select": "^5.8.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "@types/leaflet-rotatedmarker": "^0.2.5",
+    "@types/node": "^20",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "daisyui": "^4.12.2",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
